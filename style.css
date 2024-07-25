@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+#head {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+.header-scr{
+background-color: white;
+  position:fixed;
+  z-index: 
+  999;
+  width: 100%;
+}
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+ margin-bottom:15px ;
+}
+.custom-giohang {
+  border: #0c713d 2px solid;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 4px;
+  color: #0c713d;
+ 
+  
+  
+}
+
+.login-custom{
+  font-weight: bold;
+  font-size: 14px;
+}
+.color-vn{
+  color: #0c713d;
+}
+
+
+.font-menu {
+  display: flex;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  font-weight: bold;
+}
+.menu {
+  display: block;
+  display: flex;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  margin-top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  vertical-align: baseline;
+  background-color: white;
+  font-size: large;
+  color: #666666;
+}
+.MENU {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.custom-thucuong {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: #0c713d;
+}
+.imgthumpcover {
+  width: 100%;
+  border-radius: 8px;
+}
+.color-thucuong {
+  color: #0c713d;
+}
+.custom-imgthump {
+  width: 100%;
+  height: 60%;
+}
+.icon-gray {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-thucuong {
+  text-align: center;
+  color: #0c713d;
+}
+.typo-ttth {
+  text-align: center;
+}
+.custom-sreach {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  width: 60%;
+  padding: 10px;
+  border-radius: 4px;
+}
+.sreach {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.img-thucuong{
+  width: 300px;
+}
+.image-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-img {
+  position: relative;
+  text-align: center;
+  color: rgb(6, 6, 6);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border: #930808 solid 2px;
+
+  padding: 5px;
+  background-color: #930808;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.top-right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: #0c713d solid 2px;
+  padding: 5px;
+  background-color: #0c713d;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+#hang {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1 {
+  background-color: white;
+  color: #0c713d;
+  border: 1px solid #04aa6d;
+}
+
+.button1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+.icon-ship {
+  width: 50px;
+}
+.logo-phuclong {
+  width: 50px;
+}
+.custom-price{
+color: #0c713d;
+font-size: large;
+font-weight: bold;
+}
+.custom-imgbct{
+  width: 200px;
+}
+#footer-end{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 252, 252);
+  padding-top: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.custom-foot{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+}
+.custom-typofoot{
+  font-weight: bold;
+}
